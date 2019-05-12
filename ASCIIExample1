@@ -9,10 +9,12 @@ int intXD;
 
 cout << "Enter a value from 0 to 127";
 
+//this values are the most common on the ASCII TABLE, BUT THERE ARE MORE
+
 cin >> intXD;
 character = intXD;
-cout << endl << "This is the ASCII value of the number you entered";
-cout<<character;
+cout << endl << "This is the ASCII value of the number you entered ";
+cout<<character<<endl;
 
 return system("pause");
 }
