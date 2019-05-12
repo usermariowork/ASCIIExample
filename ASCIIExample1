@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+char character;
+int intXD;
+
+cout << "Enter a value from 0 to 127";
+
+cin >> intXD;
+character = intXD;
+cout << endl << "This is the ASCII value of the number you entered";
+cout<<character;
+
+return system("pause");
+}
